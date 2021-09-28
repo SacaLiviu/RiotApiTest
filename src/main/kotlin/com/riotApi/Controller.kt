@@ -62,8 +62,6 @@ class BasicController : Controller()     {
             .append((apiKey)).toString()
     }
 
-    //https://europe.api.riotgames.com/lol/match/v5/matches/EUN1_2808849832?api_key=RGAPI-9999a5e0-bcf3-4d14-913d-35678472d61a
-
     fun getLastMatchData(region: String,matchId:String):String{
         val url=StringBuilder()
         var continent=""
